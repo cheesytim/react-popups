@@ -1,0 +1,45 @@
+{
+  "name": "react-popups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Tim Bochkarev",
+  "license": "MIT",
+  "scripts": {
+    "test": "run test"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.5"
+  },
+  "devDependencies": {
+    "firenpm": "1.2.0",
+    "firenpm.web": "1.2.0"
+  },
+  "babel": {
+    "presets": [
+      "firenpm/babel-preset-es2015",
+      "firenpm/babel-preset-react",
+      "firenpm/babel-preset-stage-2"
+    ]
+  },
+  "runjs": {
+    "babel-register": "./node_modules/firenpm/babel-register"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/firenpm/eslint-config-standard.js",
+      "./node_modules/firenpm/eslint-config-standard-react.js"
+    ],
+    "parser": "./node_modules/firenpm/babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tim152/react-popups.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tim152/react-popups/issues"
+  },
+  "homepage": "https://github.com/Tim152/react-popups#readme"
+}
