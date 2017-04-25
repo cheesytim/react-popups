@@ -8,12 +8,12 @@ A very simple react component that allows you to wrap your content in a modal wi
 The controlling component does not have its own button, you need to create it and manage the `isVisible` prop
 ```javascript
 changePopupState() {
-  this.setState({ isVisible: !this.state.isVisible });
+  this.setState({ popupIsVisible: !this.state.popupIsVisible });
 }
 
 //JSX
 <Button onClick={this.changePopupState}>
-<Popup isVisible={this.state.isVisible} handleClickOnBackdrop={this.changePopupState} isControlled>
+<Popup isVisible={this.state.popupIsVisible} handleClickOnBackdrop={this.changePopupState} isControlled>
   <Content />
 </Popup>
 ```
