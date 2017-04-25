@@ -33,4 +33,4 @@ The uncontrolled popup has its own button, you can transfer the styles and butto
   <Content />
 </Popup>
 ```
-requires [styled-components](https://github.com/styled-components/styled-components)
+requires [styled-components](https://github.com/styled-components/styled-components);
