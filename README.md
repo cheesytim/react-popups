@@ -13,7 +13,7 @@ First you need to install and import the component
 ### Example Controlled:
 The controlling component does not have its own button, you need to create it and manage the `isVisible` prop
 ```javascript
-JS
+//JS
 changePopupState() {
   this.setState({ popupIsVisible: !this.state.popupIsVisible });
 }
