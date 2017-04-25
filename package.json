@@ -2,7 +2,7 @@
   "name": "react-popups",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "author": "Tim Bochkarev",
   "license": "MIT",
   "scripts": {
