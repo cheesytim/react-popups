@@ -20,7 +20,8 @@ module.exports = {
       { test: /\.js$/, loader: firenpmWeb('babel-loader') },
       { test: /\.json$/, loader: firenpmWeb('json-loader') },
       { test: /\.css$/, loaders: [firenpmWeb('style-loader'), firenpmWeb('css-loader')] },
-      { test: /\.(png|jpg)$/, loader: firenpmWeb('url-loader') }
+      { test: /\.(png|jpg)$/, loader: firenpmWeb('url-loader') },
+      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/, query: { presets: ['es2015'] }}
     ]
   }
 }
